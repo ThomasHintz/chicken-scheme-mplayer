@@ -17,7 +17,7 @@
 		       (lambda ()
 			 (read-line in))))))))
 
-(define (mplayer-stop)
+(define (mplayer-quit)
   (mplayer-command "quit"))
 (define (mplayer-pause)
   (mplayer-command "pause"))
